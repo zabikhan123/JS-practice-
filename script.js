@@ -88,10 +88,26 @@
 // }
 // console.log("conguratulation you guass the right number")
 
-let winnum= 29;
-let usernum= prompt("guass the win number")
-while(winnum != usernum){
-    usernum= prompt("you enter the woring number guass again")
-    console.log( "usernum = ", usernum)
+// let winnum= 29;
+// let usernum= prompt("guass the win number")
+// while(winnum != usernum){
+//     usernum= prompt("you enter the woring number guass again")
+//     console.log( "usernum = ", usernum)
+// }
+// console.log("conguratulation you guass the right number")
+
+
+
+
+// templet literals
+
+let obj={
+    item :"pen",
+    price: 10,
 }
-console.log("conguratulation you guass the right number")
+console.log("the cast of ", obj.item ,"is ",obj.price,"rupees")
+
+
+
+// we use \n for next line
+// we use  \t  ti add the tabe 
