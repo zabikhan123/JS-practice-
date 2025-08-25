@@ -68,7 +68,30 @@
 // }
 
 // Quistion one 
-for(let num = 0; num <= 100 ; num++){
-    if(num % 2 === 0)
-        console.log("num =", num)
+
+
+// for(let num = 0; num <= 100 ; num++){
+//     if(num % 2 === 0)
+//         console.log("num =", num)
+// }
+
+// for (let num = 0 ; num <= 100; num++){
+//     if(num % 2 !==0)
+//         console.log("num =", num)
+// }
+// Quistion number to 
+
+// let gamenumber= 20;
+// let usernum= prompt("Enter the right number");
+// while(gamenumber != usernum){
+//     usernum = prompt("you entered the woring number guass again")
+// }
+// console.log("conguratulation you guass the right number")
+
+let winnum= 29;
+let usernum= prompt("guass the win number")
+while(winnum != usernum){
+    usernum= prompt("you enter the woring number guass again")
+    console.log( "usernum = ", usernum)
 }
+console.log("conguratulation you guass the right number")
