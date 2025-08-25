@@ -46,10 +46,23 @@
 // for of loop 
 
 
-let src = "afghanistan";
-let linght = 0;
-for(let i of src){
-    console.log( " i =", i);
-    linght++;
-};
-console.log("linght =", linght)
+// let src = "afghanistan";
+// let linght = 0;
+// for(let i of src){
+//     console.log( " i =", i);
+//     linght++;
+// };
+// console.log("linght =", linght)
+
+
+// for in loop
+
+
+let student = {
+    name : "ali khan",
+    number : 20,
+    ispass: true,
+}
+for( let key in student){
+    console.log("key = ", key , student[key]);
+}
