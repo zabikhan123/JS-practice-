@@ -30,11 +30,26 @@
 //     console.log("i =", i)
 //     i++;
 // }
+
+
 // do while loop
 
 
-let i = 1;
-do{
-    console.log( "hello everone i'm from afg");
-    i++;
-}while(i <= 10);
+// let i = 1;
+// do{
+//     console.log( "hello everone i'm from afg");
+//     i++;
+// }while(i <= 10);
+
+
+
+// for of loop 
+
+
+let src = "afghanistan";
+let linght = 0;
+for(let i of src){
+    console.log( " i =", i);
+    linght++;
+};
+console.log("linght =", linght)
