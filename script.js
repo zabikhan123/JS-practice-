@@ -58,11 +58,17 @@
 // for in loop
 
 
-let student = {
-    name : "ali khan",
-    number : 20,
-    ispass: true,
-}
-for( let key in student){
-    console.log("key = ", key , student[key]);
+// let student = {
+//     name : "ali khan",
+//     number : 20,
+//     ispass: true,
+// }
+// for( let key in student){
+//     console.log("key = ", key , student[key]);
+// }
+
+// Quistion one 
+for(let num = 0; num <= 100 ; num++){
+    if(num % 2 === 0)
+        console.log("num =", num)
 }
