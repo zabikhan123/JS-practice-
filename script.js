@@ -101,13 +101,52 @@
 
 // templet literals
 
-let obj={
-    item :"pen",
-    price: 10,
-}
-console.log("the cast of ", obj.item ,"is ",obj.price,"rupees")
+// let obj={
+//     item :"pen",
+//     price: 10,
+// }
+// console.log("the cast of ", obj.item ,"is ",obj.price,"rupees")
 
 
 
 // we use \n for next line
 // we use  \t  ti add the tabe 
+
+//string metod in js
+
+// let str = "afghanistan";
+// str = str.toUpperCase();
+
+// trim metod is use to  remove  the start and the end space
+
+// let afg = " afg        hinstan   kabul  ";
+// console.log(afg.trim())
+
+// we use it to return a part of string
+
+// let str = "afghanistan";
+// console.log(str.slice(3 , 8))
+
+// we use it to connict the two and more the two string // we can also use + for concat
+
+// let str1 = "hello";
+// let str2 = "buy";
+// let resu = str1.concat( " ",str2);
+// console.log(resu)
+
+// we can use replace metod to change content of a string 
+
+// let num = "hello";
+// console.log(num.replace("h","y"))
+
+
+// we can use charAt metod for define the number of index
+
+// let num = "hello";
+// console.log(num.charAt(4))
+
+// Quistion one 
+
+let fullName= prompt("Enter your fullname whitout space")
+let username = "@" + fullName + fullName.length ;
+console.log(username)
