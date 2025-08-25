@@ -25,8 +25,16 @@
 //     i++;
 // }
 
+// let i = 1;
+// while ( i <= 10){
+//     console.log("i =", i)
+//     i++;
+// }
+// do while loop
+
+
 let i = 1;
-while( i <= 20){
-    console.log(" i =", i);
+do{
+    console.log( "hello everone i'm from afg");
     i++;
-}
+}while(i <= 10);
