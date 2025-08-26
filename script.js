@@ -147,6 +147,19 @@
 
 // Quistion one 
 
-let fullName= prompt("Enter your fullname whitout space")
-let username = "@" + fullName + fullName.length ;
-console.log(username)
+// let fullName= prompt("Enter your fullname whitout space")
+// let username = "@" + fullName + fullName.length ;
+// console.log(username)
+
+
+
+
+
+
+// array in js 
+
+let num= [
+    {name: "ali",
+    number: 32,
+    }
+]
