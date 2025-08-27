@@ -158,10 +158,19 @@
 
 // array in js 
 
-let num= [
-    {name: "ali",
-    number: 32,
-    }
-]
+// let num= [
+//     {name: "ali",
+//     number: 32,
+//     }
+// ]
 
-// new 
+let name = [98, 91, 84, 80,70,60]
+for(let ind = 0; ind < name.length; ind++){
+    console.log("index =", name[ind])
+}
+
+
+let cetiy=["kabul","mazar","bamyan","logar","herat",]
+for(let place of cetiy){
+    console.log(place);
+}
