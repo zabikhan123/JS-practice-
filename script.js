@@ -164,13 +164,54 @@
 //     }
 // ]
 
-let name = [98, 91, 84, 80,70,60]
-for(let ind = 0; ind < name.length; ind++){
-    console.log("index =", name[ind])
-}
+// let name = [98, 91, 84, 80,70,60]
+// for(let ind = 0; ind < name.length; ind++){
+//     console.log("index =", name[ind])
+// }
 
 
-let cetiy=["kabul","mazar","bamyan","logar","herat",]
-for(let place of cetiy){
-    console.log(place);
+// let cetiy=["kabul","mazar","bamyan","logar","herat",]
+// for(let place of cetiy){
+//     console.log(place);
+// }
+// let cetiy=["kabul","mazar","bamyan","logar","herat",]
+// for(let i of cetiy){
+//     console.log(i)
+// }
+ 
+//Quiction number one
+
+// let num = [98, 91, 84, 80,70,60];
+
+// let sum = 0;
+
+// for(let val of num){
+//     sum += val;
+// }
+
+// let avg = sum / num.length;
+// console.log("avg of class is = ", avg)
+
+//  let num = [98, 91, 84, 80,70,60];
+//  let sum = 0;
+//  for(let val of num){
+//     sum += val;
+//  }
+//  let avg = sum / num.length;
+//  console.log(`avrage of class is = ${avg}`)
+
+
+// Quistion number two
+
+// let items = [290,300, 222, 400,390,800,500,600];
+// for(let i = 0 ; i < items.length ; i++){
+//    let offer = items[i] / 10;
+//    items[i] -= offer;
+// }
+// console.log(items);
+let items = [290,300, 222, 400,390,800,500,600];
+for(let i = 0 ; i < items.length ; i++){
+   let offer = items[i] / 10;
+   items[i] -= offer;
 }
+console.log(items)
