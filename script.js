@@ -208,10 +208,36 @@
 //    let offer = items[i] / 10;
 //    items[i] -= offer;
 // }
+
+
 // console.log(items);
-let items = [290,300, 222, 400,390,800,500,600];
-for(let i = 0 ; i < items.length ; i++){
-   let offer = items[i] / 10;
-   items[i] -= offer;
-}
-console.log(items)
+// let items = [290,300, 222, 400,390,800,500,600];
+// for(let i = 0 ; i < items.length ; i++){
+//    let offer = items[i] / 10;
+//    items[i] -= offer;
+// }
+// console.log(items)
+
+// push metod in js the are added the items in the ind of array
+
+// let items = ["apple","mango","banana","orange","patato","tomato","painapple","grapes","kivi"]
+
+// items.push("mana","juse");
+
+// console.log(items);
+
+// pop metod in js the remove item from the ind of array
+
+// let items = ["apple","mango","banana","orange","patato","tomato","painapple","grapes","kivi"]
+// items.pop();
+// console.log(items);
+
+
+
+// tostring we use it to convert everting in to string
+
+let items = [32,32,43,45,56,76,78,98,87,676,545,];
+console.log("befor change it to string",items)
+
+items.toString()
+console.log(items);
